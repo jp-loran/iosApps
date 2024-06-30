@@ -13,7 +13,9 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var userField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-    
+    let manager = MovieServiceManager()
+
+    var storedMovies: [Movie] = []
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -43,8 +45,8 @@ class LoginViewController: UIViewController {
                  let users = try context.fetch(fetchRequest)
 
                        if let user = users.first {
-                           if let userName = user.name {
-                               Helpers.showAlert(title:"Inicio de sesión exitoso", message: "Iniciando sesión para el usuario \(userName)...", on:self)
+                           if user.name != nil {
+                               performSegue(withIdentifier: "showExploreScreen", sender: self)
                            }
                        } else {
                            Helpers.showAlert(title: "Error", message: "El usuario o la contraseña son incorrectos o no registrados", on: self)

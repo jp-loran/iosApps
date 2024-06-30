@@ -19,5 +19,10 @@ class WelcomeViewController: UIViewController {
         
     }
     
-
+    @IBAction func exploreAction(_ sender: Any) {
+        performSegue(withIdentifier: "showExploreRegisterScreen", sender: self)
+    }
+    
+    
+    
 }

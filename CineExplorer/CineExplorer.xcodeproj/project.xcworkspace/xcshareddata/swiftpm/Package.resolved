@@ -1,0 +1,24 @@
+{
+  "originHash" : "5e734d7d3c1f429dc77f6173860cd8321607ad9934bfd7d7aad0341a926bbda6",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "f455c2975872ccd2d9c81594c658af65716e9b9a",
+        "version" : "5.9.1"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage",
+      "state" : {
+        "revision" : "5642d1ffe3dbe628592443bd14154e31929727b4",
+        "version" : "5.19.2"
+      }
+    }
+  ],
+  "version" : 3
+}

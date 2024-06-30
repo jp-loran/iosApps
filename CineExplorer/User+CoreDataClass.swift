@@ -2,7 +2,7 @@
 //  User+CoreDataClass.swift
 //  CineExplorer
 //
-//  Created by Juan Pablo Alvarez Loran on 10/05/24.
+//  Created by Juan Pablo Alvarez Loran on 13/05/24.
 //
 //
 
