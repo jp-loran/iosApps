@@ -17,13 +17,17 @@
 		F827C6F12BEF418B006482B6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F827C6F02BEF418B006482B6 /* RegisterViewController.swift */; };
 		F827C6F42BEF46A8006482B6 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F827C6F32BEF46A8006482B6 /* Helpers.swift */; };
 		F827C6F62BEF51E4006482B6 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F827C6F52BEF51E4006482B6 /* WelcomeViewController.swift */; };
+		F82D54392C42362B00211FDF /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82D54382C42362B00211FDF /* UserViewController.swift */; };
 		F86A62AC2BF2F318005F63A0 /* CineExplorerDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F86A62AA2BF2F318005F63A0 /* CineExplorerDB.xcdatamodeld */; };
 		F86A62AF2BF2F3F3005F63A0 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86A62AD2BF2F3F3005F63A0 /* User+CoreDataClass.swift */; };
 		F86A62B02BF2F3F3005F63A0 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86A62AE2BF2F3F3005F63A0 /* User+CoreDataProperties.swift */; };
 		F87E81982C06B49900C2B723 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E81972C06B49900C2B723 /* MovieTableViewCell.swift */; };
-		F87E819B2C06BD7600C2B723 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = F87E819A2C06BD7600C2B723 /* SDWebImage */; };
 		F87E819D2C06CD5100C2B723 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E819C2C06CD5100C2B723 /* MovieDetailViewController.swift */; };
 		F89E58872C0809D600EA5470 /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E58862C0809D600EA5470 /* StarRatingView.swift */; };
+		F8A7D9692C4617D100919124 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8A7D9682C4617D100919124 /* GoogleService-Info.plist */; };
+		F8A7D9782C46259000919124 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = F8A7D9772C46259000919124 /* SDWebImage */; };
+		F8A7D97A2C4625A300919124 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F8A7D9792C4625A300919124 /* Alamofire */; };
+		F8A7D97C2C4625BB00919124 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F8A7D97B2C4625BB00919124 /* FirebaseAuth */; };
 		F8CF5FE92BF303910023DAF0 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CF5FE82BF303910023DAF0 /* MoviesViewController.swift */; };
 		F8CF5FEC2BF306DC0023DAF0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CF5FEB2BF306DC0023DAF0 /* Constants.swift */; };
 		F8CF5FEF2BF3078A0023DAF0 /* MovieServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CF5FEE2BF3078A0023DAF0 /* MovieServiceManager.swift */; };
@@ -32,7 +36,6 @@
 		F8D3BB8C2C12B8120089ABC9 /* FavoriteMoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D3BB8B2C12B8120089ABC9 /* FavoriteMoviesTableViewController.swift */; };
 		F8D3BB8E2C12B9DA0089ABC9 /* FavoriteMoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D3BB8D2C12B9DA0089ABC9 /* FavoriteMoviesTableViewCell.swift */; };
 		F8D3BB902C12C5280089ABC9 /* SnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D3BB8F2C12C5280089ABC9 /* SnackBar.swift */; };
-		F8FB4DD42BF7083600C27AC0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F8FB4DD32BF7083600C27AC0 /* Alamofire */; };
 		F8FB4DD82BF7090C00C27AC0 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FB4DD72BF7090C00C27AC0 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,12 +52,14 @@
 		F827C6F02BEF418B006482B6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		F827C6F32BEF46A8006482B6 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		F827C6F52BEF51E4006482B6 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F82D54382C42362B00211FDF /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		F86A62AB2BF2F318005F63A0 /* CineExplorerDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CineExplorerDB.xcdatamodel; sourceTree = "<group>"; };
 		F86A62AD2BF2F3F3005F63A0 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		F86A62AE2BF2F3F3005F63A0 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F87E81972C06B49900C2B723 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		F87E819C2C06CD5100C2B723 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		F89E58862C0809D600EA5470 /* StarRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
+		F8A7D9682C4617D100919124 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F8CF5FE82BF303910023DAF0 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		F8CF5FEB2BF306DC0023DAF0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F8CF5FEE2BF3078A0023DAF0 /* MovieServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieServiceManager.swift; sourceTree = "<group>"; };
@@ -71,8 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F87E819B2C06BD7600C2B723 /* SDWebImage in Frameworks */,
-				F8FB4DD42BF7083600C27AC0 /* Alamofire in Frameworks */,
+				F8A7D9782C46259000919124 /* SDWebImage in Frameworks */,
+				F8A7D97C2C4625BB00919124 /* FirebaseAuth in Frameworks */,
+				F8A7D97A2C4625A300919124 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +108,7 @@
 		F827C6D02BEF2981006482B6 /* CineExplorer */ = {
 			isa = PBXGroup;
 			children = (
+				F8A7D9682C4617D100919124 /* GoogleService-Info.plist */,
 				F87E81962C06B46A00C2B723 /* View */,
 				F8CF5FED2BF307740023DAF0 /* Service */,
 				F8CF5FEA2BF306C30023DAF0 /* Constants */,
@@ -137,6 +144,7 @@
 				F8CF5FE82BF303910023DAF0 /* MoviesViewController.swift */,
 				F87E819C2C06CD5100C2B723 /* MovieDetailViewController.swift */,
 				F8D3BB8B2C12B8120089ABC9 /* FavoriteMoviesTableViewController.swift */,
+				F82D54382C42362B00211FDF /* UserViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -193,8 +201,9 @@
 			);
 			name = CineExplorer;
 			packageProductDependencies = (
-				F8FB4DD32BF7083600C27AC0 /* Alamofire */,
-				F87E819A2C06BD7600C2B723 /* SDWebImage */,
+				F8A7D9772C46259000919124 /* SDWebImage */,
+				F8A7D9792C4625A300919124 /* Alamofire */,
+				F8A7D97B2C4625BB00919124 /* FirebaseAuth */,
 			);
 			productName = CineExplorer;
 			productReference = F827C6CE2BEF2981006482B6 /* CineExplorer.app */;
@@ -227,6 +236,7 @@
 			packageReferences = (
 				F8FB4DD22BF7083500C27AC0 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				F87E81992C06BD7600C2B723 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				F8A7D96A2C46186A00919124 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = F827C6CF2BEF2981006482B6 /* Products */;
 			projectDirPath = "";
@@ -243,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F827C6DB2BEF2982006482B6 /* Assets.xcassets in Resources */,
+				F8A7D9692C4617D100919124 /* GoogleService-Info.plist in Resources */,
 				F827C6DE2BEF2982006482B6 /* Base in Resources */,
 				F827C6D92BEF2981006482B6 /* Base in Resources */,
 			);
@@ -275,6 +286,7 @@
 				F8CF5FEF2BF3078A0023DAF0 /* MovieServiceManager.swift in Sources */,
 				F87E819D2C06CD5100C2B723 /* MovieDetailViewController.swift in Sources */,
 				F827C6F42BEF46A8006482B6 /* Helpers.swift in Sources */,
+				F82D54392C42362B00211FDF /* UserViewController.swift in Sources */,
 				F827C6D42BEF2981006482B6 /* SceneDelegate.swift in Sources */,
 				F8CF5FEC2BF306DC0023DAF0 /* Constants.swift in Sources */,
 			);
@@ -426,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3WZU825K9X;
@@ -443,6 +456,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = juan.alvarez.CineExplorer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,6 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3WZU825K9X;
@@ -471,6 +486,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = juan.alvarez.CineExplorer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -509,6 +525,14 @@
 				minimumVersion = 5.19.2;
 			};
 		};
+		F8A7D96A2C46186A00919124 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
 		F8FB4DD22BF7083500C27AC0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -520,15 +544,20 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F87E819A2C06BD7600C2B723 /* SDWebImage */ = {
+		F8A7D9772C46259000919124 /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F87E81992C06BD7600C2B723 /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImage;
 		};
-		F8FB4DD32BF7083600C27AC0 /* Alamofire */ = {
+		F8A7D9792C4625A300919124 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F8FB4DD22BF7083500C27AC0 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		F8A7D97B2C4625BB00919124 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8A7D96A2C46186A00919124 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
 		};
 /* End XCSwiftPackageProductDependency section */
 

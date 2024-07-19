@@ -7,6 +7,7 @@
 
 import UIKit
 import CoreData
+import FirebaseAuth
 
 class LoginViewController: UIViewController {
 
@@ -36,25 +37,18 @@ class LoginViewController: UIViewController {
             Helpers.showAlert(title: "Información incompleta", message: "Ingresa la contraseña", on: self)
             return
         }
-
-        let fetchRequest: NSFetchRequest<User> = User.fetchRequest()
-        fetchRequest.predicate = NSPredicate(format: "email == %@ AND password == %@", username, password)
-        fetchRequest.fetchLimit = 1
-
-             do {
-                 let users = try context.fetch(fetchRequest)
-
-                       if let user = users.first {
-                           if user.name != nil {
-                               performSegue(withIdentifier: "showExploreScreen", sender: self)
-                           }
-                       } else {
-                           Helpers.showAlert(title: "Error", message: "El usuario o la contraseña son incorrectos o no registrados", on: self)
-                       }
-             } catch {
-                 Helpers.showAlert(title: "Error", message: "Ocurrió un problema al verificar el usuario", on: self)
-             }
         
+        Auth.auth().signIn(withEmail: username, password: password) { authResult, error in
+            if let error = error {
+                Helpers.showAlert(title: "Error", message: error.localizedDescription, on: self)
+                print("Error: \(error.localizedDescription)")
+            } else {
+                print("User signed in successfully")
+                let userInfo = Auth.auth().currentUser
+                UserDefaults.standard.set(userInfo?.email, forKey: "userEmail")
+                self.performSegue(withIdentifier: "showExploreScreen", sender: self)
+            }
+        }
     }
     
     @IBAction func registerAction(_ sender: Any) {
